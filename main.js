@@ -11,3 +11,9 @@ hamburgerBtn.addEventListener('click',
     hamburgerMenu.classList.add("active");
   }
 )
+// chiusura con click 
+hamburgerClose.addEventListener('click',
+    function () {
+    hamburgerMenu.classList.remove("active");
+  }
+)
